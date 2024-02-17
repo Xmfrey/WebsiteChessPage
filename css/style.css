@@ -435,11 +435,14 @@ body {
   right: 0;
   top: 50%;
   transform: translate(100%, -50%);
-  animation: running-line 30s infinite linear forwards;
   white-space: nowrap;
   padding-left: 12px;
+  will-change: transform;
 }
-.running-line__list-second {
+.running-line__list--first {
+  animation: running-line 30s infinite linear forwards;
+}
+.running-line__list--second {
   animation: running-line 30s 15s infinite linear forwards;
 }
 .running-line__item {

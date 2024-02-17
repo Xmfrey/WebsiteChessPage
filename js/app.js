@@ -1,3 +1,13 @@
+window.addEventListener("load", () => {
+  const runningLines = document.querySelectorAll(".running-line");
+  runningLines.forEach((line) => {
+    line.children[0].classList.add("running-line__list--first");
+    line.children[1].classList.add("running-line__list--second");
+  });
+});
+
+///////////////////////sliders//////////////////////////
+
 const vasyukovStagesSwiper = new Swiper(".vasyukov-stages__swiper", {
   speed: 500,
   spaceBetween: 20,
@@ -77,7 +87,7 @@ const participantsSwiper = new Swiper(".participants__swiper", {
   },
 });
 
-//////////////////dinamic-adaptive//////////////////////////
+/////////////////////dinamic-adaptive//////////////////////////
 
 function useDynamicAdapt(type = "max") {
   const className = "_dynamic_adapt_";
