@@ -421,7 +421,7 @@ body {
   color: #fff;
   height: 60px;
   background-color: #f54932;
-  padding: 18px 12px;
+  padding: 18px 0;
   font-size: 22px;
   line-height: 110%;
   overflow: hidden;
@@ -440,10 +440,10 @@ body {
   will-change: transform;
 }
 .running-line__list--first {
-  animation: running-line 30s infinite linear forwards;
+  animation: running-line 40s infinite linear forwards;
 }
 .running-line__list--second {
-  animation: running-line 30s 15s infinite linear forwards;
+  animation: running-line 40s 20s infinite linear forwards;
 }
 .running-line__item {
   position: relative;
