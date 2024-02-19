@@ -240,6 +240,7 @@ body {
   background-color: #fff;
   padding: 12px;
   border: 1px solid #3057a2;
+  margin-bottom: 1px;
 }
 .slider-routing {
   display: inline-flex;
@@ -269,6 +270,11 @@ body {
 .slider-button-prev:hover,
 .slider-button-next:hover {
   background-color: #fbce51;
+}
+
+.slider-button-prev:focus,
+.slider-button-next:focus {
+  outline: 2px solid #fbce51;
 }
 
 @media screen and (max-width: 375px) {
