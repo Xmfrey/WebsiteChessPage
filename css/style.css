@@ -272,8 +272,8 @@ body {
   background-color: #fbce51;
 }
 
-.slider-button-prev:focus,
-.slider-button-next:focus {
+.slider-button-prev:focus-visible,
+.slider-button-next:focus-visible {
   outline: 2px solid #fbce51;
 }
 
