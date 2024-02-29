@@ -735,10 +735,6 @@ body {
 .vasyukov-stages__swiper-pagination .swiper-pagination-bullet-active {
   background-color: #313131;
 }
-.vasyukov-stages__swiper-button-prev,
-.vasyukov-stages__swiper-button-next {
-  transition: opacity 0.3s ease-in-out;
-}
 .vasyukov-stages__swiper-button-prev.swiper-button-disabled,
 .vasyukov-stages__swiper-button-next.swiper-button-disabled {
   opacity: 0.2;
